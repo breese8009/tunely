@@ -2,7 +2,7 @@
   "name": "tunely",
   "version": "1.0.0",
   "description": "tunley project",
-  "main": "index.js",
+  "main": "server.js",
   "directories": {
     "doc": "docs"
   },
@@ -23,6 +23,7 @@
     "body-parser": "^1.17.2",
     "express": "^4.15.4",
     "method-override": "^2.3.9",
+    "mongoose": "^4.11.9",
     "request": "^2.81.0",
     "request-promise": "^4.2.1"
   }

@@ -10,11 +10,15 @@ app.use(bodyParser.urlencoded({extended: true}));
 // app.use(require("./resources"));
 
 
-
 app.get('/', (req, res)=>{
 res.sendFile('views/index.html', {root: __dirname});
 });
 
+let db = require("./models");
+
+let controllers = require('./resources/controllers');
+
+app.get('/api', controllers.api.index);
 
 
 
