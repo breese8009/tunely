@@ -1,0 +1,29 @@
+{
+  "name": "tunely",
+  "version": "1.0.0",
+  "description": "tunley project",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/breese8009/tunely.git"
+  },
+  "author": "Bryan Reese",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/breese8009/tunely/issues"
+  },
+  "homepage": "https://github.com/breese8009/tunely#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "method-override": "^2.3.9",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1"
+  }
+}
